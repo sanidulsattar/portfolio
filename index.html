@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8b0b4619fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <!--###########for menu & logo ######-->
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                  <!--  <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Sanidul Sattar </span> <br>from Lucknow</h1>
+        </div>
+        </div>
+    </div>
+    <!-- here completed the header section-->
+    <!-- for About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/usercopy.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>5⭐ in Java & 3⭐ in Problem Solving at HacherRank | 
+                        100+ Questions at LeetCode | and also I am skilled in C, 
+                        SQL, Data Structures, Algorithms, and have good knowledge of 
+                        Android Development, DBMS, and O.S.</p>
+
+                         <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming</span><br>Java / C Programming</li>
+                                <li><span>Query/Script</span><br>SQL </li>
+                                <li><span>Others</span><br>OOPs/HTML/CSS </li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Projects">
+                            <ul>
+                                <li><span>Faaso's</span><br>A SQL project based on real working application</li>
+                                <li><span>Personal Portfolio</span><br>Wev-based project to show personal portfolio </li>
+                                <li><span>BMAP</span><br>A Bus information app within the city </li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.Tech</span><br>Computer Science and Engineering(2018-22)</li>
+                                <li><span>10+2</span><br>Science(2017) </li>
+                                <li><span>10th</span><br>Math/Science/English(2015) </li>
+                            </ul>
+                         </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--About Section Ended here-->
+
+
+    <!--Services Section Started here-->
+<!--
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Sevices</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>This element is used to add a comment to an HTML document. An HTML comment begins with 
+                        and the comment closes with</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>This element is used to add a comment to an HTML document. An HTML comment begins with 
+                        and the comment closes with</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App  Design</h2>
+                    <p>This element is used to add a comment to an HTML document. An HTML comment begins with 
+                        and the comment closes with</p>
+                        <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+-->
+
+    <!-------------Portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="#">
+                    <div class="layer">
+                        <h3>BMAP</h3>
+                        <p>BMAP(BUS MAP) is a city bus service guide, containing Bus stops
+                            information, Bus Routes, Fares, and Bus times.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>                    
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="#">   
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>It is a web-based portfolio for showing personal projects and accomplishments.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>                  
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="#">                    
+                    <div class="layer">
+                        <h3>Faaso's SQL</h3>
+                        <p>It is an SQL project that is based on real-life scenario using Microsoft SQL Server Management Studio.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div> 
+                </div>
+            </div>
+            <a href="" class="btn" >See More</a>
+        </div>
+    </div>
+
+    <!-------------Contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mohdsanidulsattar@.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-6392836712</p>
+                    <div class="social-icons">
+                      <!--  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                       <a href=""><i class="fa-brands fa-twitter-square"></i></a>  --> 
+                        <a href="https://leetcode.com/sanidulsattar/"><i class="fa-solid fa-laptop-code"></i></a>
+                        <a href="https://www.linkedin.com/in/sanidulsattar/"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sanidul. <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--JS started here-->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<!--js for mobile devices means for responsiveness-->
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<!--------script for form data to be send on google sheet-------->
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzlXPqwHXlxuPX-IYGSWlNu6ql9v580XosYb862y6dBNK9PZgq9Ft78yymPVf6FmNRtZQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
+
+
+
+<!--Google form thing from github-->
+<!--https://github.com/jamiewilson/form-to-google-sheets-->
+
+
+<!--Reference Youtube Video-->
+<!--https://www.youtube.com/watch?v=0YFrGy_mzjY&t=2146s-->
