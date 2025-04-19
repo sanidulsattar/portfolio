@@ -1,6 +1,6 @@
 # 💼 Sanidul Sattar - Developer Portfolio
 
-![Portfolio Screenshot](images/Screenshot.JPG)  
+![Portfolio Screenshot](images/Screenshots.JPG)  
 *A clean, responsive portfolio showcasing my projects and skills*
 
 ## 🌐 Live Demo
